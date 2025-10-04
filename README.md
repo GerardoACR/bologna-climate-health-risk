@@ -1,22 +1,32 @@
-# Progetto 3 - MITD  
-**Temperature moderate ed estreme e rischio climatico-sanitario a Bologna**
+# Temperature Extremes and Climate–Health Risk in Bologna
 
-## Descrizione
+Analysis, prototyping, and visualization of **temperature-related health risk** for the city of **Bologna (2019–2025)**, with a focus on vulnerable groups (children <5 and seniors ≥65) using the methodology of risk explained in Gasparrini et al. (2015). (As shown in the first Jupyter Notebook).
 
-Questo progetto nasce nell’ambito del corso **Metodi Informatici per la Trasformazione Digitale (MITD)**, con l’obiettivo di analizzare e visualizzare il rischio sanitario legato a condizioni climatiche estreme nella città di Bologna, nel periodo 2019-2025.  
+**Course context:** *Metodi Informatici per la Trasformazione Digitale* (AA 2024–2025), University of Bologna.
 
-Il lavoro si focalizza sull’individuazione dei giorni a rischio sanitario (mortalità) correlati alle temperature, considerando popolazioni vulnerabili come bambini sotto i 5 anni e persone sopra i 65 anni. L’analisi si integra con personae definite per simulare casi d’uso realistici.
+> **Role & Privacy**  
+> - **Roles:** Project Manager for the course-wide backlog and **Product Owner** for this project.  
+> - **My work:** End-to-end delivery — sourcing and cleaning open data, building the consolidated **Bologna Risk Dataset**, engineering features, running correlation analyses, and creating the final visualizations.  
+> - **Team context:** Classmates focused on complementary research tasks and **Essence Workbench**; this repository’s dataset and code were primarily my responsibility.  
+> - **Privacy:** Classmate names are intentionally omitted. We tracked work in **Taiga**.
 
-## Team
+---
 
-- Nome team: **Metoditeam**
-- Membri:
-  - Gerardo Antonio Corral Ruiz
-  - G---- B-----
-  - N----- S-----
-  - P---- P-----
+## Repository layout
 
-Non mostro i nomi dei miei compagni per motivi di privacy.
+```text
+.
+├─ 1_AnalisiContesto.ipynb        # context, sources, open-data rationale, integration choices
+├─ 2_PrototipoTecnico__1_.ipynb   # technical prototype, feature engineering, exploratory visuals
+├─ 3_OutputValore.ipynb           # final insights & stakeholder-oriented visualizations
+│
+├─ bolognaTemperature.csv         # daily weather (2019–2025) for Bologna
+├─ deathsTemperature.csv          # mortality/temperature base (literature/open-data derived)
+├─ demografica.csv                # Bologna demographics (total, <5, ≥65)
+├─ bolognaRiskDataset.csv         # final integrated dataset (built by me from the sources)
+│
+└─ README.md
+
 
 ## Obiettivi
 
