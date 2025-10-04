@@ -49,6 +49,11 @@ All collection and integration steps are documented in **`1_AnalisiContesto.ipyn
 
 #### Exploratory Analysis & Visuals  
 
+### Ethics, Privacy & Licensing  
+
+- All data used are **open** and/or **aggregated** — no personal data are included.  
+- **Teammate identities** are omitted to ensure privacy.  
+- **License:** MIT — feel free to reuse or adapt this work with proper attribution.
 
 ---
 
